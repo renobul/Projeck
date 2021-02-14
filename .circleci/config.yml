@@ -7,8 +7,7 @@ orbs:
 # Orchestrate or schedule a set of jobs
 workflows:
   # Name the workflow "welcome"
-  welcome: renobil co
+  welcome:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
-       .circleci/config.yml
